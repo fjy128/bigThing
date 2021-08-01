@@ -7,14 +7,14 @@
 nodemon app.js(需安装nodemon)
 ```
 ## 服务器运行
-# 安装mySql环境
+### 安装mySql环境
  1、mySql;
  2、mySqlworkbench
 
- # mySql安装地址(mac版)
+ ### mySql安装地址(mac版)
  https://downloads.mysql.com/archives/community/
 
-# 运行服务器
+### 运行服务器
   直接打开workbench,连接就好
 
 ## 项目创建步骤  
