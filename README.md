@@ -1,7 +1,25 @@
-项目启动:nodemon app.js(电脑要安装nodemon)
-服务器启动:直接打开workbench,连接就好
+## 这是一个基于node+express+mySql实现用户登录注册、个人中心、文章管理接口编写项目
 
-一、项目创建笔记:
+注意: 仅仅是一个个人练习新技术demo,中间固然存在很多问题,也有很多东西没有写完,后续有空会补上
+
+## 项目运行
+```
+nodemon app.js(需安装nodemon)
+```
+## 服务器运行
+# 安装mySql环境
+ 1、mySql;
+ 2、mySqlworkbench
+
+ # mySql安装地址(mac版)
+ https://downloads.mysql.com/archives/community/
+
+# 运行服务器
+  直接打开workbench,连接就好
+
+## 项目创建步骤  
+
+```
 1、新建项目名称
 2、进入项目文件夹
 3、初始化项目并执行命令: npm init -y
@@ -41,6 +59,7 @@ app.use(express.urlencoded({ extended: false }))
 2)新建 router_handler 文件夹，用来存放所有的 路由处理函数模块
 (路由处理函数模块中，专门负责存放每个路由对应的处理函数)
 
+```
 
 二、项目中遇到问题及解决方案
 问题1:使用node连接数据库,出现如下报错:
